@@ -2,7 +2,7 @@ from ib_insync import *
 # util.startLoop()  # uncomment this line when in a notebook
 
 ib = IB()
-ib.connect('127.0.0.1', 4001, clientId=0)
+ib.connect('127.0.0.1', 7497, clientId=1)
 
 contract = Forex('EURUSD')
 bars = ib.reqHistoricalData(
